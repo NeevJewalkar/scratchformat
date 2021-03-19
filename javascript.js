@@ -68,7 +68,7 @@ sf.tags = [
 		"src": "https://raw.githubusercontent.com/Remix-Design/RemixIcon/master/icons/Editor/link.svg",
 		"fillers": ["[link=URLHERE]", "[/link]"],
 		"formatter": function(part1, part2) {
-			return "<a href='" + part1 + "'  target='_newtab'>" + part2 + "</a>";
+			return "<a href='" + part1 + "'  target='_blank' rel='noopener noreferrer'>" + part2 + "</a>";
 		}
 	},
 	{
